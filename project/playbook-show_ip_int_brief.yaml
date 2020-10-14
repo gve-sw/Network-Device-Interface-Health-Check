@@ -1,0 +1,10 @@
+---
+- name: device interfaces overview
+  hosts: all
+  connection: network_cli
+  gather_facts: no
+
+  tasks:
+    - name: run show ip int brief
+      ios_command:
+        commands: show ip interface brief

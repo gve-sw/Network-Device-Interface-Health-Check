@@ -1,0 +1,11 @@
+---
+- name: get error counters per interface
+  hosts: all
+  connection: network_cli
+  gather_facts: no
+
+  tasks:
+    - name: get interface error counters
+      ios_command:
+        commands: show interface {{  item  }} | i errors
+      loop: "{{  interfaces  }}"
