@@ -22,7 +22,7 @@ A Python script to quickly check the interface status and statistics of Cisco IO
 
 ## Solution Components
 * Ansible
-* Python, incl. 'ansible_runner' module
+* Python, incl. ansible_runner module
 
 
 ## Prerequisites
