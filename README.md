@@ -1,4 +1,4 @@
-# Network Device Interface Health Check using Ansible
+# Network Device Interface Health Check
 
 A Python script to quickly check the interface status and statistics of Cisco IOS and IOS XE network devices using Ansible ([watch demo](https://youtu.be/GuE2HDsu03I)).
 
