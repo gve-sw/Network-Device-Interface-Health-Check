@@ -37,13 +37,17 @@ A Python script to quickly check the interface status and statistics of Cisco IO
    - Note that the playbooks are stored in the `project` folder. No customization is required here.
    
 
+
 ## Installation
 
-1. (Optional) Create a Python virtual environment for the project and activate it (find instructions [here](https://docs.python.org/3/tutorial/venv.html)).
+1. Clone this repository with `git clone <this repo>` and navigate to the directory with `cd path/to/repo`.
 
-2. In the terminal, navigate to the root directory of the repository, and install the requirements with `pip install -r requirements.txt`.
+2. (Optional) Create a Python virtual environment for the project and activate it (find instructions [here](https://docs.python.org/3/tutorial/venv.html)).
 
-3. From the root directory, run the Python script with `python main.py`
+3. In the terminal, navigate to the root directory of the repository, and install the requirements with `pip install -r requirements.txt`.
+
+4. From the root directory, run the Python script with `python main.py`
+
 
 
 ## License
